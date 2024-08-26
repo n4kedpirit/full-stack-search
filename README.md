@@ -82,9 +82,21 @@ When clicking on one of the `Hotels`, `Cities` or `Countries` links, the applica
 
 ### Write-up
 
-<!-- Write-up/conclusion section -->
+Areas for Improvement:
 
-_When all the behaviour is implemented, feel free to add some observations or conclusions you like to share in the section_
+Styling: The current design is basic. Enhancing the UI with better spacing, colors, and responsive design would improve the user experience. Utilizing a CSS framework like tailwind or custom styles could help achieve a more polished look.
+Component Structure: The HomePage could be separated and further broken down into sub-components (e.g., search bar, results list) to improve reusability and maintainability.
+Error Handling: While basic error handling is in place, adding more user-friendly error messages and possibly retry mechanisms would make the app more robust.
+Optimization: The use of debounce is a good start for performance, but further optimizations like caching results or integrating state management tools could enhance performance and scalability.
+
+Test are missing
+
+Unit Testing: Components such as the search bar, results list, and detail pages should be covered with unit tests using a testing library like Jest. 
+
+Integration Testing: Tests should be written to verify that the search functionality correctly integrates with the API and that results are displayed appropriately. Tools like React Testing Library can be used to simulate user interactions.
+
+End-to-End Testing: Implement end-to-end tests using Cypress or Selenium to verify the entire user flow, from searching to navigating to detail pages, works as intended across different environments and browsers.
+
 
 ### Database structure
 

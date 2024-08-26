@@ -14,6 +14,11 @@
     "api-no-watch": "npm run -w api dev:no-watch"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.7",
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react-router-dom": "^6.26.1"
   }
 }
